@@ -9,7 +9,7 @@ phases:
   build: 
     commands: 
       - echo running build 
-      - npm run build 
+      - node app.js 
 
   post_build: 
     commmands: 
@@ -18,7 +18,5 @@ phases:
 artifacts: 
   files: 
     - '**/*'
-  base-directory: dist
-  discard-paths: no
 
 

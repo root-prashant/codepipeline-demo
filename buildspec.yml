@@ -1,19 +1,19 @@
-version 0.2
+version: 0.2
 
 phases: 
   install: 
     commands: 
-      - echo installing dependencies 
+      - "echo installing dependencies"
       - npm ci
 
   build: 
     commands: 
-      - echo running build 
+      - "echo running build"
       - node app.js 
 
   post_build: 
-    commmands: 
-      - echo build completed successfully 
+    commands: 
+      - "echo build completed successfully"
 
 artifacts: 
   files: 

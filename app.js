@@ -14,7 +14,7 @@ let notes = [
     {
         id: 1,
         title: "Welcome Note",
-        content: "This is your first note! and image created using codebuild and container running through ecs. And now codepipeline has also been created. You can create, edit, and delete notes using this app. checking after the ......... ALB .... again checking ",
+        content: "This is your first note! and image created using codebuild and container running through ecs. You can create, edit, and delete notes using this app. ",
         timestamp: new Date().toISOString(),
         created: new Date().toLocaleString()
     }
